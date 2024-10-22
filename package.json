@@ -3,17 +3,21 @@
   "version": "1.0.0",
   "description": "complete backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "\"javaScript\", \"backend\""
+    "url": ""
   },
   "keywords": [
     "\"javaScript\"",
     "\"backend\""
   ],
   "author": "Shariq",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
